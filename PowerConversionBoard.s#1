@@ -5989,6 +5989,7 @@ IPC Nominal Density</description>
 <sheets>
 <sheet>
 <plain>
+<text x="34.036" y="27.178" size="1.778" layer="91">Insert LEDs 470 ohm maybe for the 12v 5_3v 5v 3v rails </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-157.48" y="-116.84" smashed="yes">
