@@ -5360,54 +5360,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
-<library name="DiscreteComponents">
-<packages>
-<package name="HCMA1305">
-<smd name="P$1" x="0" y="5.5" dx="3.3" dy="4.9" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="-5.5" dx="3.3" dy="4.9" layer="1" rot="R90"/>
-<wire x1="-6.1" y1="6.65" x2="6.1" y2="6.65" width="0.127" layer="21"/>
-<wire x1="6.1" y1="6.65" x2="6.1" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="6.1" y1="-6.65" x2="-6.1" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="-6.1" y1="-6.65" x2="-6.1" y2="6.65" width="0.127" layer="21"/>
-<text x="-6.35" y="7.62" size="1.27" layer="21">&gt;NAME</text>
-<text x="-6.35" y="-8.89" size="1.27" layer="21">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="INDUCTOR-US">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
-<text x="-1.27" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HCMA1305">
-<gates>
-<gate name="G$1" symbol="INDUCTOR-US" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HCMA1305">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Nordic_nRF" urn="urn:adsk.eagle:library:169009">
 <description>&lt;h4&gt;Nordic Semiconductor Devices&lt;/h4&gt;
 &lt;br&gt;
@@ -5936,6 +5888,54 @@ IPC Nominal Density</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="HCM1305">
+<packages>
+<package name="HCM1305">
+<smd name="1" x="0" y="5.5" dx="4.9" dy="3.3" layer="1"/>
+<smd name="2" x="0" y="-5.5" dx="4.9" dy="3.3" layer="1"/>
+<wire x1="-4" y1="8" x2="4" y2="8" width="0.1524" layer="1"/>
+<wire x1="4" y1="8" x2="4" y2="-8" width="0.1524" layer="1"/>
+<wire x1="4" y1="-8" x2="-4" y2="-8" width="0.1524" layer="1"/>
+<wire x1="-4" y1="-8" x2="-4" y2="8" width="0.1524" layer="1"/>
+<text x="0" y="1" size="1.778" layer="1">&gt;name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="HCM1305">
+<description>HCM1305</description>
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="2.547809375" y="5.09561875" size="1.78346875" layer="95" rot="R270">&gt;NAME</text>
+<pin name="1" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="-2.54" y="2.54" size="1.778" layer="96" rot="R270">15 uH</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HCM1305">
+<gates>
+<gate name="G$1" symbol="HCM1305" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HCM1305">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5973,7 +5973,6 @@ IPC Nominal Density</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U$4" library="TPS758" deviceset="TO-263" device=""/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 1.2 ohms"/>
-<part name="U$9" library="DiscreteComponents" deviceset="HCMA1305" device="" value="7.8 uH"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="C14" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="10uF"/>
 <part name="C29" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="10uF"/>
@@ -5984,10 +5983,13 @@ IPC Nominal Density</description>
 <part name="C25" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="150uF"/>
 <part name="C26" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="150uF"/>
 <part name="U$13" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0603_N" package3d_urn="urn:adsk.eagle:package:2593734/1" value="47 uF"/>
+<part name="U$2" library="HCM1305" deviceset="HCM1305" device=""/>
+<part name="U$5" library="HCM1305" deviceset="HCM1305" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="34.036" y="27.178" size="1.778" layer="91">Insert LEDs 470 ohm maybe for the 12v 5_3v 5v 3v rails </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-157.48" y="-116.84" smashed="yes">
@@ -6091,10 +6093,6 @@ IPC Nominal Density</description>
 <attribute name="NAME" x="373.634" y="-27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="376.682" y="-27.94" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="U$9" gate="G$1" x="476.758" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="481.838" y="64.77" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="481.838" y="69.85" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="J5" gate="G$1" x="456.438" y="-10.16" smashed="yes">
 <attribute name="NAME" x="455.422" y="-8.382" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="455.422" y="-13.208" size="1.778" layer="96" font="vector"/>
@@ -6134,6 +6132,12 @@ IPC Nominal Density</description>
 <instance part="U$13" gate="C$1" x="375.158" y="-10.16" smashed="yes">
 <attribute name="NAME" x="376.682" y="-9.779" size="1.778" layer="95"/>
 <attribute name="VALUE" x="376.682" y="-14.859" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="476.758" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="471.66238125" y="68.587809375" size="1.78346875" layer="95"/>
+</instance>
+<instance part="U$5" gate="G$1" x="52.832" y="71.374" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.73638125" y="73.921809375" size="1.78346875" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -6348,6 +6352,7 @@ IPC Nominal Density</description>
 <junction x="80.772" y="71.374"/>
 <pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="93.472" y1="63.754" x2="93.472" y2="71.374" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
@@ -6368,6 +6373,7 @@ IPC Nominal Density</description>
 <wire x1="37.592" y1="71.374" x2="40.132" y2="71.374" width="0.1524" layer="91"/>
 <wire x1="37.592" y1="66.294" x2="37.592" y2="71.374" width="0.1524" layer="91"/>
 <junction x="37.592" y="71.374"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -6406,7 +6412,7 @@ IPC Nominal Density</description>
 <wire x1="461.518" y1="66.04" x2="464.058" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="461.518" y1="60.96" x2="461.518" y2="66.04" width="0.1524" layer="91"/>
 <junction x="461.518" y="66.04"/>
-<pinref part="U$9" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6429,7 +6435,6 @@ IPC Nominal Density</description>
 <wire x1="446.278" y1="76.2" x2="489.458" y2="76.2" width="0.1524" layer="91"/>
 <junction x="489.458" y="76.2"/>
 <label x="476.758" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$9" gate="G$1" pin="2"/>
 <pinref part="C24" gate="G$1" pin="+"/>
 <wire x1="489.458" y1="58.42" x2="489.458" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="+"/>
@@ -6437,6 +6442,7 @@ IPC Nominal Density</description>
 <junction x="502.158" y="66.04"/>
 <pinref part="C26" gate="G$1" pin="+"/>
 <wire x1="514.858" y1="58.42" x2="514.858" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="EN"/>
