@@ -5917,11 +5917,11 @@ IPC Nominal Density</description>
 <package name="HCM1305">
 <smd name="1" x="0" y="5.5" dx="4.9" dy="3.3" layer="1"/>
 <smd name="2" x="0" y="-5.5" dx="4.9" dy="3.3" layer="1"/>
-<wire x1="-4" y1="8" x2="4" y2="8" width="0.1524" layer="1"/>
-<wire x1="4" y1="8" x2="4" y2="-8" width="0.1524" layer="1"/>
-<wire x1="4" y1="-8" x2="-4" y2="-8" width="0.1524" layer="1"/>
-<wire x1="-4" y1="-8" x2="-4" y2="8" width="0.1524" layer="1"/>
-<text x="0" y="1" size="1.778" layer="1">&gt;name</text>
+<wire x1="-4" y1="8" x2="4" y2="8" width="0.1524" layer="25"/>
+<wire x1="4" y1="8" x2="4" y2="-8" width="0.1524" layer="25"/>
+<wire x1="4" y1="-8" x2="-4" y2="-8" width="0.1524" layer="26"/>
+<wire x1="-4" y1="-8" x2="-4" y2="8" width="0.1524" layer="25"/>
+<text x="0" y="1" size="1.778" layer="25">&gt;name</text>
 </package>
 </packages>
 <symbols>
@@ -7949,11 +7949,11 @@ Source: www.kingbright.com</description>
 <library name="TP">
 <packages>
 <package name="TP">
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="1"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="1"/>
-<text x="0" y="3.81" size="1.778" layer="1">&gt;NAME</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="25"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="25"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="25"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="25"/>
+<text x="0" y="3.81" size="1.778" layer="25">&gt;NAME</text>
 <pad name="P$1" x="0" y="0" drill="2.54"/>
 </package>
 </packages>
