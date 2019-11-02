@@ -8054,6 +8054,10 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="-80.01" y="20.32" size="1.778" layer="95">Test Points</text>
+<text x="466.852" y="1.524" size="1.778" layer="95">Test Points</text>
+<text x="434.086" y="1.524" size="1.778" layer="95">Pins</text>
+<text x="-105.664" y="20.32" size="1.778" layer="95">Pins</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-157.48" y="-116.84" smashed="yes">
