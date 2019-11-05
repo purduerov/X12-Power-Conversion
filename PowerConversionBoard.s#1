@@ -6825,7 +6825,6 @@ LED</description>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
@@ -6838,7 +6837,6 @@ LED</description>
 <part name="U$11" library="TP" deviceset="TP" device=""/>
 <part name="U$6" library="TP" deviceset="TP" device=""/>
 <part name="U$8" library="TP" deviceset="TP" device=""/>
-<part name="U$12" library="TP" deviceset="TP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7017,9 +7015,6 @@ LED</description>
 <attribute name="NAME" x="442.214" y="-19.304" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="442.214" y="-24.13" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+3" gate="1" x="467.106" y="-23.622" smashed="yes" rot="R90">
-<attribute name="VALUE" x="472.186" y="-26.162" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="D1" gate="G$1" x="-99.822" y="69.088" smashed="yes">
 <attribute name="NAME" x="-103.251" y="64.516" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="-97.917" y="64.516" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
@@ -7062,9 +7057,6 @@ LED</description>
 </instance>
 <instance part="U$8" gate="G$1" x="477.266" y="-15.748" smashed="yes" rot="R270">
 <attribute name="NAME" x="479.806" y="-17.526" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="U$12" gate="G$1" x="477.266" y="-23.622" smashed="yes" rot="R270">
-<attribute name="NAME" x="479.806" y="-25.4" size="1.778" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -7116,11 +7108,6 @@ LED</description>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="-74.168" y1="14.478" x2="-79.248" y2="14.478" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="474.726" y1="-23.622" x2="469.646" y2="-23.622" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
