@@ -2088,8 +2088,8 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="147.5232" y="77.9526" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="143.7132" y="77.6986" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="BANANA_CONN" package3d_urn="urn:adsk.eagle:package:38018/1" value="" x="96.012" y="96.012" smashed="yes">
-<attribute name="NAME" x="93.472" y="99.314" size="0.6096" layer="25" font="vector" ratio="20"/>
+<element name="+5V_3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="BANANA_CONN" package3d_urn="urn:adsk.eagle:package:38018/1" value="" x="96.012" y="96.012" smashed="yes">
+<attribute name="NAME" x="93.98" y="92.075" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="93.472" y="92.075" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="147.3454" y="28.1686" smashed="yes" rot="R180">
@@ -2126,8 +2126,8 @@ Please make sure your boards conform to these design rules.
 <element name="+3.3" library="TP" package="TP" value="TP" x="139.6492" y="96.1644" smashed="yes">
 <attribute name="NAME" x="137.5664" y="92.71" size="0.6096" layer="25"/>
 </element>
-<element name="U$8" library="TP" package="TP" value="TP" x="103.0224" y="96.393" smashed="yes">
-<attribute name="NAME" x="100.7618" y="91.3384" size="1.778" layer="25"/>
+<element name="5V_3.3V" library="TP" package="TP" value="TP" x="103.0224" y="96.393" smashed="yes">
+<attribute name="NAME" x="100.7618" y="92.8624" size="0.6096" layer="25"/>
 </element>
 <element name="U$12" library="ET60S-02-24-02-X-VP-GP" package="ET60S-02-24-02-X-VP-GP" value="ET60S-02-24-02-X-VP-GP" x="76.2" y="12.7" smashed="yes">
 <attribute name="NAME" x="73.4" y="21.935" size="1.27" layer="25"/>
@@ -2616,12 +2616,12 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$4" pad="P$1"/>
 <contactref element="U$4" pad="P$2"/>
 <contactref element="R1" pad="2"/>
-<contactref element="J4" pad="P$1"/>
+<contactref element="+5V_3.3V" pad="P$1"/>
 <wire x1="77.6986" y1="83.5856" x2="71.3486" y2="83.5856" width="1.27" layer="1"/>
 <wire x1="84.0486" y1="83.5856" x2="77.6986" y2="83.5856" width="1.27" layer="1"/>
 <wire x1="84.0486" y1="91.5416" x2="84.0486" y2="83.5856" width="1.27" layer="1"/>
 <contactref element="U$7" pad="2"/>
-<contactref element="U$8" pad="P$1"/>
+<contactref element="5V_3.3V" pad="P$1"/>
 <wire x1="84.0486" y1="91.5416" x2="83.1986" y2="91.5416" width="1.27" layer="1"/>
 <wire x1="71.3486" y1="83.5856" x2="67.773" y2="80.01" width="1.016" layer="1"/>
 <wire x1="84.7286" y1="83.5856" x2="84.0486" y2="83.5856" width="1.27" layer="1"/>
