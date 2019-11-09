@@ -7136,13 +7136,13 @@ LED</description>
 <part name="C18" library="PowerComponents" deviceset="C-TANTALUM(10UF_150UF)" device="" value="10uF"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="12V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="+5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="+3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="GND3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
@@ -7150,10 +7150,10 @@ LED</description>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="U$7" library="HCM1305" deviceset="HCM1305" device=""/>
 <part name="U$2" library="HCM1305" deviceset="HCM1305" device=""/>
-<part name="U$5" library="TP" deviceset="TP" device=""/>
-<part name="U$10" library="TP" deviceset="TP" device=""/>
-<part name="U$11" library="TP" deviceset="TP" device=""/>
-<part name="U$6" library="TP" deviceset="TP" device=""/>
+<part name="+12V" library="TP" deviceset="TP" device=""/>
+<part name="GND2" library="TP" deviceset="TP" device=""/>
+<part name="5V" library="TP" deviceset="TP" device=""/>
+<part name="+3.3" library="TP" deviceset="TP" device=""/>
 <part name="U$8" library="TP" deviceset="TP" device=""/>
 <part name="U$12" library="ET60S-02-24-02-X-VP-GP" deviceset="ET60S-02-24-02-X-VP-GP" device=""/>
 <part name="U$9" library="Conversion_Connector" deviceset="CONVERSION_TSW_12X2" device=""/>
@@ -7305,29 +7305,29 @@ LED</description>
 <instance part="P+6" gate="1" x="-18.542" y="92.456" smashed="yes">
 <attribute name="VALUE" x="-21.082" y="87.376" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J1" gate="G$1" x="-98.298" y="11.43" smashed="yes">
+<instance part="12V" gate="G$1" x="-98.298" y="11.43" smashed="yes">
 <attribute name="NAME" x="-99.314" y="13.208" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-99.314" y="8.382" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="-98.298" y="3.81" smashed="yes">
+<instance part="GND" gate="G$1" x="-98.298" y="3.81" smashed="yes">
 <attribute name="NAME" x="-99.314" y="5.588" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-99.314" y="0.762" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="P+5" gate="1" x="-108.458" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-103.378" y="8.89" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J6" gate="G$1" x="-98.298" y="-4.064" smashed="yes">
+<instance part="+5V" gate="G$1" x="-98.298" y="-4.064" smashed="yes">
 <attribute name="NAME" x="-99.314" y="-2.286" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-99.314" y="-7.112" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="P+2" gate="1" x="-81.788" y="14.478" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-76.708" y="11.938" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J5" gate="G$1" x="443.484" y="-5.334" smashed="yes">
+<instance part="+3.3V" gate="G$1" x="443.484" y="-5.334" smashed="yes">
 <attribute name="NAME" x="442.468" y="-3.556" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="442.468" y="-8.382" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="443.23" y="-13.208" smashed="yes">
+<instance part="GND3" gate="G$1" x="443.23" y="-13.208" smashed="yes">
 <attribute name="NAME" x="442.214" y="-11.43" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="442.214" y="-16.256" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -7357,16 +7357,16 @@ LED</description>
 <instance part="U$2" gate="G$1" x="90.932" y="55.372" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.83638125" y="57.919809375" size="1.78346875" layer="95"/>
 </instance>
-<instance part="U$5" gate="G$1" x="-71.628" y="14.478" smashed="yes" rot="R270">
+<instance part="+12V" gate="G$1" x="-71.628" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="-69.088" y="12.7" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="U$10" gate="G$1" x="-71.628" y="4.826" smashed="yes" rot="R270">
+<instance part="GND2" gate="G$1" x="-71.628" y="4.826" smashed="yes" rot="R270">
 <attribute name="NAME" x="-69.088" y="3.048" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="U$11" gate="G$1" x="-71.628" y="-5.08" smashed="yes" rot="R270">
+<instance part="5V" gate="G$1" x="-71.628" y="-5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="-69.088" y="-6.858" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="U$6" gate="G$1" x="477.266" y="-5.588" smashed="yes" rot="R270">
+<instance part="+3.3" gate="G$1" x="477.266" y="-5.588" smashed="yes" rot="R270">
 <attribute name="NAME" x="479.806" y="-7.366" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="U$8" gate="G$1" x="477.266" y="-15.748" smashed="yes" rot="R270">
@@ -7429,14 +7429,14 @@ LED</description>
 <label x="-30.48" y="71.628" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="12V" gate="G$1" pin="1"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="-100.838" y1="11.43" x2="-105.918" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="-74.168" y1="14.478" x2="-79.248" y2="14.478" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="+12V" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="1"/>
@@ -7675,17 +7675,17 @@ LED</description>
 <pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="GND" gate="G$1" pin="1"/>
 <wire x1="-100.838" y1="3.81" x2="-108.458" y2="3.81" width="0.1524" layer="91"/>
 <label x="-108.458" y="3.81" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-74.168" y1="4.826" x2="-81.788" y2="4.826" width="0.1524" layer="91"/>
 <label x="-81.788" y="4.826" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="GND2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="G$1" pin="1"/>
 <wire x1="440.69" y1="-13.208" x2="433.07" y2="-13.208" width="0.1524" layer="91"/>
 <label x="433.07" y="-13.208" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7844,14 +7844,14 @@ LED</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="+5V" gate="G$1" pin="1"/>
 <wire x1="-100.838" y1="-4.064" x2="-108.458" y2="-4.064" width="0.1524" layer="91"/>
 <label x="-108.458" y="-4.064" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="-74.168" y1="-5.08" x2="-81.788" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-81.788" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
+<pinref part="5V" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="8"/>
@@ -7903,14 +7903,14 @@ LED</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="+3.3V" gate="G$1" pin="1"/>
 <wire x1="440.944" y1="-5.334" x2="433.324" y2="-5.334" width="0.1524" layer="91"/>
 <label x="433.324" y="-5.334" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="474.726" y1="-5.588" x2="467.106" y2="-5.588" width="0.1524" layer="91"/>
 <label x="467.106" y="-5.588" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="+3.3" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="26"/>
