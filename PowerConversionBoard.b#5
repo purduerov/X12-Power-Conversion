@@ -2310,11 +2310,9 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$9" pad="18"/>
 <contactref element="U$9" pad="20"/>
 <contactref element="U$9" pad="22"/>
-<contactref element="U$9" pad="34"/>
 <contactref element="U$9" pad="40"/>
 <contactref element="U$9" pad="36"/>
 <contactref element="U$9" pad="38"/>
-<contactref element="U$9" pad="33"/>
 <contactref element="U$9" pad="41"/>
 <contactref element="U$9" pad="35"/>
 <contactref element="U$9" pad="37"/>
@@ -2333,7 +2331,6 @@ Please make sure your boards conform to these design rules.
 <vertex x="149.479" y="66.04"/>
 </polygon>
 <wire x1="127.762" y1="78.613" x2="141.605" y2="64.77" width="1.27" layer="1"/>
-<wire x1="141.605" y1="64.77" x2="145.415" y2="64.77" width="1.27" layer="1"/>
 <contactref element="U$12" pad="P1-1"/>
 <contactref element="U$12" pad="P2-4"/>
 <contactref element="U$12" pad="P1-2"/>
@@ -2372,6 +2369,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="156" y="-2"/>
 <vertex x="156" y="93.348"/>
 </polygon>
+<contactref element="U$9" pad="42"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="6"/>
