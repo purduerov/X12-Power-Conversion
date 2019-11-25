@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2193,9 +2193,9 @@ Please make sure your boards conform to these design rules.
 <vertex x="41.656" y="67.31"/>
 <vertex x="39.37" y="65.024"/>
 <vertex x="16.002" y="65.024"/>
-<vertex x="8.128" y="72.898"/>
-<vertex x="8.128" y="86.106"/>
-<vertex x="13.97" y="91.948"/>
+<vertex x="12.7" y="68.326"/>
+<vertex x="12.7" y="88.392"/>
+<vertex x="16.256" y="91.948"/>
 <vertex x="42.926" y="91.948"/>
 <vertex x="43.688" y="92.71"/>
 <vertex x="43.688" y="102.108"/>
@@ -2254,7 +2254,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
 <contactref element="GND_TP" pad="P$1"/>
-<via x="14.7066" y="88.2904" extent="1-16" drill="0.35"/>
+<via x="15.4686" y="85.2424" extent="1-16" drill="0.35"/>
 <wire x1="106.68" y1="77.0948" x2="84.0994" y2="77.0948" width="1.27" layer="1"/>
 <wire x1="84.0994" y1="77.0948" x2="84.0486" y2="77.1456" width="1.27" layer="1"/>
 <wire x1="106.68" y1="77.0948" x2="106.6038" y2="77.171" width="0.762" layer="1"/>
