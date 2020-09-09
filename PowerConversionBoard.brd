@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5621,7 +5621,7 @@ LED - BLUE</description>
 </library>
 <library name="ET60S-02-24-02-X-VP-GP">
 <packages>
-<package name="ET60S-02-24-02-X-VP-GP">
+<package name="ET60S-02-24-02-X-VP-GP" urn="urn:adsk.eagle:footprint:23038843/1">
 <description>VERTICAL SOCKET ET60 POWER ASSEM.</description>
 <wire x1="-21.6275" y1="7.24" x2="-14.6275" y2="7.24" width="0.254" layer="51"/>
 <wire x1="-14.6275" y1="7.24" x2="-14.1275" y2="7.74" width="0.254" layer="51" curve="90"/>
@@ -5723,62 +5723,62 @@ LED - BLUE</description>
 <wire x1="-26.3775" y1="9.8" x2="-22.6275" y2="9.8" width="0.254" layer="21"/>
 <wire x1="-22.6275" y1="9.8" x2="-21.6275" y2="8.8" width="0.254" layer="21" curve="-90"/>
 <wire x1="-21.6275" y1="8.8" x2="-21.6275" y2="7.74" width="0.254" layer="21"/>
-<pad name="1" x="8.89" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="2" x="6.35" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="3" x="3.81" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="4" x="1.27" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="5" x="-1.27" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="6" x="-3.81" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="7" x="-6.35" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="8" x="-8.89" y="-2.84" drill="1.02" diameter="1.22"/>
-<pad name="9" x="8.89" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="10" x="6.35" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="11" x="3.81" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="12" x="1.27" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="13" x="-1.27" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="14" x="-3.81" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="15" x="-6.35" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="16" x="-8.89" y="-0.3" drill="1.02" diameter="1.22"/>
-<pad name="17" x="8.89" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="18" x="6.35" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="19" x="3.81" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="20" x="1.27" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="21" x="-1.27" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="22" x="-3.81" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="23" x="-6.35" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="24" x="-8.89" y="2.24" drill="1.02" diameter="1.22"/>
-<pad name="P1-1" x="22.56" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-2" x="22.56" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-3" x="22.56" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-4" x="22.56" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-5" x="19.56" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P1-6" x="19.56" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-7" x="19.56" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P1-8" x="19.56" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-1" x="17.06" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-2" x="17.06" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-3" x="17.06" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-4" x="17.06" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-5" x="14.06" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P2-6" x="14.06" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-7" x="14.06" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P2-8" x="14.06" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-1" x="-13.7" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-2" x="-13.7" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-3" x="-13.7" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-4" x="-13.7" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-5" x="-16.7" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P3-6" x="-16.7" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-7" x="-16.7" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P3-8" x="-16.7" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-1" x="-19.2" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-2" x="-19.2" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-3" x="-19.2" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-4" x="-19.2" y="3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-5" x="-22.2" y="-3.75" drill="1.02" diameter="1.22"/>
-<pad name="P4-6" x="-22.2" y="-1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-7" x="-22.2" y="1.25" drill="1.02" diameter="1.22"/>
-<pad name="P4-8" x="-22.2" y="3.75" drill="1.02" diameter="1.22"/>
+<pad name="1" x="8.89" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="2" x="6.35" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="3" x="3.81" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="4" x="1.27" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="5" x="-1.27" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="6" x="-3.81" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="7" x="-6.35" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="8" x="-8.89" y="-2.84" drill="1.02" diameter="1.87"/>
+<pad name="9" x="8.89" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="10" x="6.35" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="11" x="3.81" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="12" x="1.27" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="13" x="-1.27" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="14" x="-3.81" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="15" x="-6.35" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="16" x="-8.89" y="-0.3" drill="1.02" diameter="1.87"/>
+<pad name="17" x="8.89" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="18" x="6.35" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="19" x="3.81" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="20" x="1.27" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="21" x="-1.27" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="22" x="-3.81" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="23" x="-6.35" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="24" x="-8.89" y="2.24" drill="1.02" diameter="1.87"/>
+<pad name="P1-1" x="22.56" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P1-2" x="22.56" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P1-3" x="22.56" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P1-4" x="22.56" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P1-5" x="19.56" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P1-6" x="19.56" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P1-7" x="19.56" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P1-8" x="19.56" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P2-1" x="17.06" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P2-2" x="17.06" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P2-3" x="17.06" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P2-4" x="17.06" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P2-5" x="14.06" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P2-6" x="14.06" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P2-7" x="14.06" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P2-8" x="14.06" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P3-1" x="-13.7" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P3-2" x="-13.7" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P3-3" x="-13.7" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P3-4" x="-13.7" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P3-5" x="-16.7" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P3-6" x="-16.7" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P3-7" x="-16.7" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P3-8" x="-16.7" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P4-1" x="-19.2" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P4-2" x="-19.2" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P4-3" x="-19.2" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P4-4" x="-19.2" y="3.75" drill="1.02" diameter="1.87"/>
+<pad name="P4-5" x="-22.2" y="-3.75" drill="1.02" diameter="1.87"/>
+<pad name="P4-6" x="-22.2" y="-1.25" drill="1.02" diameter="1.87"/>
+<pad name="P4-7" x="-22.2" y="1.25" drill="1.02" diameter="1.87"/>
+<pad name="P4-8" x="-22.2" y="3.75" drill="1.02" diameter="1.87"/>
 <text x="19.55" y="8.39" size="1.27" layer="21">P1</text>
 <text x="7.5" y="-8.5" size="1.27" layer="21">1</text>
 <text x="-8.3" y="-8.5" size="1.27" layer="21">8</text>
@@ -5789,10 +5789,18 @@ LED - BLUE</description>
 <text x="-2.8" y="-8.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="ET60S-02-24-02-X-VP-GP" urn="urn:adsk.eagle:package:23038846/2" type="model">
+<description>VERTICAL SOCKET ET60 POWER ASSEM.</description>
+<packageinstances>
+<packageinstance name="ET60S-02-24-02-X-VP-GP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
-<library name="Conversion_Connector">
+<library name="Dist_to_Conversion_Connector" urn="urn:adsk.eagle:library:23140426">
 <packages>
-<package name="CONVERSION_TSW_12X2">
+<package name="CONVERSION_TSW_12X2" urn="urn:adsk.eagle:footprint:23140427/1" library_version="1" library_locally_modified="yes">
 <pad name="1" x="0" y="2.54" drill="1" diameter="1.6764"/>
 <pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
 <pad name="3" x="2.54" y="2.54" drill="1" diameter="1.6764"/>
@@ -5817,10 +5825,6 @@ LED - BLUE</description>
 <pad name="22" x="25.4" y="0" drill="1" diameter="1.6764"/>
 <pad name="23" x="27.94" y="2.54" drill="1" diameter="1.6764"/>
 <pad name="24" x="27.94" y="0" drill="1" diameter="1.6764"/>
-<wire x1="-1.27" y1="4.064" x2="29.21" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="29.21" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="29.21" y1="-1.524" x2="29.21" y2="4.064" width="0.1524" layer="21"/>
 <pad name="25" x="0" y="144.78" drill="1" diameter="1.6764"/>
 <pad name="26" x="0" y="142.24" drill="1" diameter="1.6764"/>
 <pad name="27" x="2.54" y="144.78" drill="1" diameter="1.6764"/>
@@ -5845,12 +5849,23 @@ LED - BLUE</description>
 <pad name="46" x="25.4" y="142.24" drill="1" diameter="1.6764"/>
 <pad name="47" x="27.94" y="144.78" drill="1" diameter="1.6764"/>
 <pad name="48" x="27.94" y="142.24" drill="1" diameter="1.6764"/>
+<wire x1="-1.27" y1="4.064" x2="29.21" y2="4.064" width="0.1524" layer="21"/>
+<wire x1="29.21" y1="-1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="4.064" width="0.1524" layer="21"/>
+<wire x1="29.21" y1="-1.524" x2="29.21" y2="4.064" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="146.304" x2="29.21" y2="146.304" width="0.1524" layer="21"/>
 <wire x1="29.21" y1="140.716" x2="-1.27" y2="140.716" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="140.716" x2="-1.27" y2="146.304" width="0.1524" layer="21"/>
 <wire x1="29.21" y1="140.716" x2="29.21" y2="146.304" width="0.1524" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="CONVERSION_TSW_12X2" urn="urn:adsk.eagle:package:23140429/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CONVERSION_TSW_12X2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -6187,11 +6202,11 @@ Please make sure your boards conform to these design rules.
 <element name="5V_3.3_TP" library="TP" package="TP" value="TP" x="103.0224" y="96.393" smashed="yes">
 <attribute name="NAME" x="100.4062" y="92.8624" size="0.6096" layer="25"/>
 </element>
-<element name="U$12" library="ET60S-02-24-02-X-VP-GP" package="ET60S-02-24-02-X-VP-GP" value="ET60S-02-24-02-X-VP-GP" x="76.2" y="12.7" smashed="yes">
-<attribute name="NAME" x="73.4" y="21.935" size="1.27" layer="25"/>
-<attribute name="VALUE" x="73.908" y="24.801" size="1.27" layer="27"/>
+<element name="U$12" library="ET60S-02-24-02-X-VP-GP" package="ET60S-02-24-02-X-VP-GP" package3d_urn="urn:adsk.eagle:package:23038846/2" value="ET60S-02-24-02-X-VP-GP" x="76.2" y="12.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="73.4" y="3.465" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="73.908" y="0.599" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="U$9" library="Conversion_Connector" package="CONVERSION_TSW_12X2" value="CONVERSION_TSW_12X2" x="3.175" y="74.93" smashed="yes" rot="R270"/>
+<element name="U$5" library="Dist_to_Conversion_Connector" library_urn="urn:adsk.eagle:library:23140426" package="CONVERSION_TSW_12X2" package3d_urn="urn:adsk.eagle:package:23140429/2" value="CONVERSION_TSW_12X2" x="3.175" y="74.422" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="+12V">
@@ -6204,18 +6219,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="12V" pad="P$1"/>
 <contactref element="U2" pad="2"/>
 <contactref element="+12V" pad="P$1"/>
-<contactref element="U$9" pad="1"/>
-<contactref element="U$9" pad="11"/>
-<contactref element="U$9" pad="3"/>
-<contactref element="U$9" pad="5"/>
-<contactref element="U$9" pad="7"/>
-<contactref element="U$9" pad="9"/>
-<contactref element="U$9" pad="2"/>
-<contactref element="U$9" pad="12"/>
-<contactref element="U$9" pad="4"/>
-<contactref element="U$9" pad="6"/>
-<contactref element="U$9" pad="8"/>
-<contactref element="U$9" pad="10"/>
 <contactref element="U1" pad="2"/>
 <contactref element="C15" pad="+"/>
 <contactref element="C16" pad="+"/>
@@ -6271,6 +6274,18 @@ Please make sure your boards conform to these design rules.
 <vertex x="-1.27" y="104.902"/>
 <vertex x="41.656" y="104.902"/>
 </polygon>
+<contactref element="U$5" pad="1"/>
+<contactref element="U$5" pad="3"/>
+<contactref element="U$5" pad="5"/>
+<contactref element="U$5" pad="7"/>
+<contactref element="U$5" pad="9"/>
+<contactref element="U$5" pad="11"/>
+<contactref element="U$5" pad="2"/>
+<contactref element="U$5" pad="12"/>
+<contactref element="U$5" pad="4"/>
+<contactref element="U$5" pad="6"/>
+<contactref element="U$5" pad="8"/>
+<contactref element="U$5" pad="10"/>
 </signal>
 <signal name="GND">
 <contactref element="U2" pad="TAB"/>
@@ -6309,7 +6324,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="GND_TP" pad="P$1"/>
 <via x="16.4338" y="83.947" extent="1-16" drill="0.35"/>
 <wire x1="84.0994" y1="77.0948" x2="84.0486" y2="77.1456" width="1.27" layer="1"/>
-<wire x1="106.68" y1="77.0948" x2="106.6038" y2="77.171" width="0.762" layer="1"/>
 <wire x1="122.6312" y1="82.6196" x2="122.6312" y2="78.613" width="1.016" layer="1"/>
 <wire x1="51.054" y1="59.9694" x2="51.054" y2="52.832" width="1.016" layer="1"/>
 <wire x1="51.054" y1="52.832" x2="51.054" y2="51.181" width="1.016" layer="1"/>
@@ -6317,25 +6331,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="61.5452" y1="51.9082" x2="59.8594" y2="53.594" width="1.016" layer="1"/>
 <wire x1="59.8594" y1="53.594" x2="51.816" y2="53.594" width="1.016" layer="1"/>
 <wire x1="66.1152" y1="51.9082" x2="61.5452" y2="51.9082" width="1.016" layer="1"/>
-<contactref element="U$9" pad="13"/>
-<contactref element="U$9" pad="23"/>
-<contactref element="U$9" pad="15"/>
-<contactref element="U$9" pad="17"/>
-<contactref element="U$9" pad="19"/>
-<contactref element="U$9" pad="21"/>
-<contactref element="U$9" pad="24"/>
-<contactref element="U$9" pad="14"/>
-<contactref element="U$9" pad="16"/>
-<contactref element="U$9" pad="18"/>
-<contactref element="U$9" pad="20"/>
-<contactref element="U$9" pad="22"/>
-<contactref element="U$9" pad="40"/>
-<contactref element="U$9" pad="36"/>
-<contactref element="U$9" pad="38"/>
-<contactref element="U$9" pad="41"/>
-<contactref element="U$9" pad="35"/>
-<contactref element="U$9" pad="37"/>
-<contactref element="U$9" pad="39"/>
 <polygon width="0.1524" layer="1">
 <vertex x="143.637" y="63.5"/>
 <vertex x="143.637" y="53.213"/>
@@ -6365,7 +6360,6 @@ Please make sure your boards conform to these design rules.
 <vertex x="156" y="-2"/>
 <vertex x="156" y="100.206"/>
 </polygon>
-<contactref element="U$9" pad="42"/>
 <via x="120.904" y="54.102" extent="1-16" drill="0.9"/>
 <via x="123.444" y="54.102" extent="1-16" drill="0.9"/>
 <via x="125.984" y="54.102" extent="1-16" drill="0.9"/>
@@ -6442,6 +6436,26 @@ Please make sure your boards conform to these design rules.
 <via x="138.176" y="9.144" extent="1-16" drill="0.65"/>
 <via x="101.092" y="32.258" extent="1-16" drill="0.9"/>
 <via x="105.41" y="36.576" extent="1-16" drill="0.9"/>
+<contactref element="U$5" pad="13"/>
+<contactref element="U$5" pad="23"/>
+<contactref element="U$5" pad="21"/>
+<contactref element="U$5" pad="19"/>
+<contactref element="U$5" pad="17"/>
+<contactref element="U$5" pad="15"/>
+<contactref element="U$5" pad="14"/>
+<contactref element="U$5" pad="24"/>
+<contactref element="U$5" pad="16"/>
+<contactref element="U$5" pad="18"/>
+<contactref element="U$5" pad="20"/>
+<contactref element="U$5" pad="22"/>
+<contactref element="U$5" pad="35"/>
+<contactref element="U$5" pad="41"/>
+<contactref element="U$5" pad="37"/>
+<contactref element="U$5" pad="39"/>
+<contactref element="U$5" pad="36"/>
+<contactref element="U$5" pad="42"/>
+<contactref element="U$5" pad="38"/>
+<contactref element="U$5" pad="40"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="6"/>
@@ -6475,7 +6489,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="54.102" y1="49.022" x2="53.594" y2="49.53" width="1.016" layer="1"/>
 <wire x1="69.088" y1="49.022" x2="54.102" y2="49.022" width="1.016" layer="1"/>
 <contactref element="U$12" pad="8"/>
-<contactref element="U$12" pad="5"/>
 <contactref element="U$12" pad="6"/>
 <contactref element="U$12" pad="7"/>
 <contactref element="U$12" pad="16"/>
@@ -6511,6 +6524,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="145.5674" y1="32.9438" x2="144.9968" y2="32.3732" width="0.508" layer="1"/>
 <wire x1="145.6436" y1="39.1414" x2="145.6436" y2="33.02" width="1.27" layer="1"/>
 <wire x1="145.6436" y1="33.02" x2="145.5674" y2="32.9438" width="1.27" layer="1"/>
+<contactref element="U$12" pad="21"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="U$4" pad="P$4"/>
@@ -6522,14 +6536,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="147.3708" y1="96.1644" x2="142.875" y2="96.1644" width="1.27" layer="1"/>
 <wire x1="147.3708" y1="96.1644" x2="147.32" y2="96.1136" width="1.27" layer="1"/>
 <wire x1="124.3312" y1="84.9612" x2="124.3312" y2="82.6196" width="1.016" layer="1"/>
-<contactref element="U$9" pad="26"/>
-<contactref element="U$9" pad="32"/>
-<contactref element="U$9" pad="28"/>
-<contactref element="U$9" pad="30"/>
-<contactref element="U$9" pad="25"/>
-<contactref element="U$9" pad="31"/>
-<contactref element="U$9" pad="27"/>
-<contactref element="U$9" pad="29"/>
 <polygon width="0.1524" layer="16">
 <vertex x="143.891" y="76.2"/>
 <vertex x="143.891" y="67.31"/>
@@ -6537,7 +6543,6 @@ Please make sure your boards conform to these design rules.
 <vertex x="149.479" y="76.2"/>
 </polygon>
 <contactref element="U$12" pad="1"/>
-<contactref element="U$12" pad="4"/>
 <contactref element="U$12" pad="2"/>
 <contactref element="U$12" pad="3"/>
 <contactref element="U$12" pad="9"/>
@@ -6577,6 +6582,15 @@ Please make sure your boards conform to these design rules.
 <via x="135.128" y="88.9" extent="1-16" drill="0.35"/>
 <via x="136.398" y="88.9" extent="1-16" drill="0.35"/>
 <via x="139.954" y="88.9" extent="1-16" drill="0.35"/>
+<contactref element="U$12" pad="20"/>
+<contactref element="U$5" pad="25"/>
+<contactref element="U$5" pad="31"/>
+<contactref element="U$5" pad="27"/>
+<contactref element="U$5" pad="29"/>
+<contactref element="U$5" pad="26"/>
+<contactref element="U$5" pad="32"/>
+<contactref element="U$5" pad="28"/>
+<contactref element="U$5" pad="30"/>
 </signal>
 <signal name="N$2">
 <contactref element="U2" pad="3"/>
@@ -6695,23 +6709,23 @@ Please make sure your boards conform to these design rules.
 <wire x1="146.6968" y1="26.897" x2="146.4444" y2="26.6446" width="0.508" layer="1"/>
 </signal>
 <signal name="CAN_H">
-<contactref element="U$9" pad="47"/>
-<contactref element="U$12" pad="20"/>
-<wire x1="147.955" y1="46.99" x2="146.177" y2="45.212" width="0.762" layer="16"/>
 <via x="140.589" y="45.212" extent="1-16" drill="0.35"/>
 <wire x1="140.589" y1="45.212" x2="95.55" y2="45.212" width="0.762" layer="1"/>
 <wire x1="95.55" y1="45.212" x2="77.47" y2="27.132" width="0.762" layer="1"/>
-<wire x1="77.47" y1="27.132" x2="77.47" y2="14.94" width="0.762" layer="1"/>
 <wire x1="146.177" y1="45.212" x2="140.589" y2="45.212" width="0.762" layer="16"/>
+<contactref element="U$12" pad="4"/>
+<wire x1="77.47" y1="27.132" x2="77.47" y2="15.54" width="0.762" layer="1"/>
+<contactref element="U$5" pad="47"/>
+<wire x1="146.177" y1="45.212" x2="147.955" y2="46.482" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAN_L">
-<contactref element="U$9" pad="48"/>
-<contactref element="U$12" pad="21"/>
 <wire x1="95.296" y1="46.99" x2="74.93" y2="26.624" width="0.762" layer="1"/>
-<wire x1="74.93" y1="26.624" x2="74.93" y2="14.94" width="0.762" layer="1"/>
 <wire x1="140.716" y1="46.99" x2="95.296" y2="46.99" width="0.762" layer="1"/>
 <via x="140.716" y="46.99" extent="1-16" drill="0.35"/>
-<wire x1="145.415" y1="46.99" x2="140.716" y2="46.99" width="0.762" layer="16"/>
+<contactref element="U$12" pad="5"/>
+<wire x1="74.93" y1="26.624" x2="74.93" y2="15.54" width="0.762" layer="1"/>
+<contactref element="U$5" pad="48"/>
+<wire x1="140.716" y1="46.99" x2="145.415" y2="46.482" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GNDCUT">
 <polygon width="0.0254" layer="1" pour="cutout">
