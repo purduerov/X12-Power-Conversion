@@ -5912,54 +5912,6 @@ IPC Nominal Density</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="HCM1305">
-<packages>
-<package name="HCM1305">
-<smd name="1" x="0" y="5.5" dx="4.9" dy="3.3" layer="1"/>
-<smd name="2" x="0" y="-5.5" dx="4.9" dy="3.3" layer="1"/>
-<wire x1="-4" y1="8" x2="4" y2="8" width="0.1524" layer="25"/>
-<wire x1="4" y1="8" x2="4" y2="-8" width="0.1524" layer="25"/>
-<wire x1="4" y1="-8" x2="-4" y2="-8" width="0.1524" layer="26"/>
-<wire x1="-4" y1="-8" x2="-4" y2="8" width="0.1524" layer="25"/>
-<text x="0" y="1" size="1.778" layer="25">&gt;name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="HCM1305">
-<description>HCM1305</description>
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
-<text x="2.547809375" y="5.09561875" size="1.78346875" layer="95" rot="R270">&gt;NAME</text>
-<pin name="1" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-2.54" y="2.54" size="1.778" layer="96" rot="R270">15 uH</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HCM1305">
-<gates>
-<gate name="G$1" symbol="HCM1305" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HCM1305">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TP">
 <packages>
 <package name="TP">
@@ -7111,6 +7063,63 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Inductor_15uH - hcma1305" urn="urn:adsk.eagle:library:24201699">
+<packages>
+<package name="HCMA1305" urn="urn:adsk.eagle:footprint:24201700/1" library_version="1">
+<smd name="P$1" x="-5.5" y="0" dx="3.4" dy="4.9" layer="1"/>
+<smd name="P$2" x="5.5" y="0" dx="3.4" dy="4.9" layer="1"/>
+<wire x1="-6.9" y1="6.25" x2="6.9" y2="6.25" width="0.127" layer="21"/>
+<wire x1="6.9" y1="6.25" x2="6.9" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.9" y1="-6.25" x2="-6.9" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-6.25" x2="-6.9" y2="6.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="HCMA1305" urn="urn:adsk.eagle:package:24201702/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="HCMA1305"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="INDUCTOR" urn="urn:adsk.eagle:symbol:24201701/1" library_version="1">
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
+<text x="2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HCMA1305" urn="urn:adsk.eagle:component:24201703/1" library_version="1">
+<description>Eaton HCMA1305-150-R Inductor</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HCMA1305">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24201702/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7169,8 +7178,6 @@ LED</description>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="U$7" library="HCM1305" deviceset="HCM1305" device=""/>
-<part name="U$2" library="HCM1305" deviceset="HCM1305" device=""/>
 <part name="+12V" library="TP" deviceset="TP" device=""/>
 <part name="GND_TP" library="TP" deviceset="TP" device=""/>
 <part name="5V" library="TP" deviceset="TP" device=""/>
@@ -7178,6 +7185,8 @@ LED</description>
 <part name="5V_3.3_TP" library="TP" deviceset="TP" device=""/>
 <part name="U$12" library="ET60S-02-24-02-X-VP-GP" deviceset="ET60S-02-24-02-X-VP-GP" device="" package3d_urn="urn:adsk.eagle:package:23038846/2"/>
 <part name="U$5" library="Dist_to_Conversion_Connector" library_urn="urn:adsk.eagle:library:23140426" deviceset="CONVERSION_TSW_12X2" device="" package3d_urn="urn:adsk.eagle:package:23140429/2"/>
+<part name="U$2" library="Inductor_15uH - hcma1305" library_urn="urn:adsk.eagle:library:24201699" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/1"/>
+<part name="U$6" library="Inductor_15uH - hcma1305" library_urn="urn:adsk.eagle:library:24201699" deviceset="HCMA1305" device="" package3d_urn="urn:adsk.eagle:package:24201702/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7372,12 +7381,6 @@ LED</description>
 <attribute name="NAME" x="302.641" y="69.85" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="307.975" y="69.85" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="U$7" gate="G$1" x="476.758" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="471.66238125" y="68.587809375" size="1.78346875" layer="95"/>
-</instance>
-<instance part="U$2" gate="G$1" x="90.932" y="55.372" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.83638125" y="57.919809375" size="1.78346875" layer="95"/>
-</instance>
 <instance part="+12V" gate="G$1" x="-71.628" y="14.478" smashed="yes" rot="R270">
 <attribute name="NAME" x="-69.088" y="12.7" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -7406,6 +7409,14 @@ LED</description>
 <attribute name="VALUE" x="-58.42" y="-238.76" size="1.778" layer="96"/>
 <attribute name="NAME" x="-12.7" y="-203.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-12.7" y="-238.76" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="91.44" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="85.09" y="58.42" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="97.79" y="58.42" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$6" gate="G$1" x="477.52" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="471.17" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="483.87" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -7846,15 +7857,15 @@ LED</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="103.632" y1="55.372" x2="106.172" y2="55.372" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="55.88" x2="106.172" y2="55.372" width="0.1524" layer="91"/>
 <wire x1="106.172" y1="55.372" x2="118.872" y2="55.372" width="0.1524" layer="91"/>
 <wire x1="118.872" y1="55.372" x2="131.572" y2="55.372" width="0.1524" layer="91"/>
-<wire x1="98.552" y1="55.372" x2="103.632" y2="55.372" width="0.1524" layer="91"/>
-<junction x="103.632" y="55.372"/>
+<wire x1="99.06" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<junction x="104.14" y="55.88"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="103.632" y1="73.152" x2="103.632" y2="65.532" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="FEEDBACK"/>
-<wire x1="103.632" y1="65.532" x2="103.632" y2="55.372" width="0.1524" layer="91"/>
+<wire x1="103.632" y1="65.532" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.452" y1="65.532" x2="103.632" y2="65.532" width="0.1524" layer="91"/>
 <junction x="103.632" y="65.532"/>
 <pinref part="C10" gate="G$1" pin="+"/>
@@ -8013,13 +8024,15 @@ LED</description>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="458.978" y1="71.12" x2="464.058" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="464.058" y1="71.12" x2="464.058" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="469.138" y1="66.04" x2="464.058" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="469.138" y1="66.04" x2="467.36" y2="66.04" width="0.1524" layer="91"/>
 <junction x="464.058" y="66.04"/>
 <pinref part="U$3" gate="G$1" pin="P$4"/>
+<wire x1="467.36" y1="66.04" x2="464.058" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="461.518" y1="66.04" x2="464.058" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="461.518" y1="60.96" x2="461.518" y2="66.04" width="0.1524" layer="91"/>
 <junction x="461.518" y="66.04"/>
-<pinref part="U$7" gate="G$1" pin="1"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="66.04" x2="469.138" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8033,9 +8046,10 @@ LED</description>
 <segment>
 <wire x1="489.458" y1="66.04" x2="502.158" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="502.158" y1="66.04" x2="514.858" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="484.378" y1="66.04" x2="489.458" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="484.378" y1="66.04" x2="485.14" y2="66.04" width="0.1524" layer="91"/>
 <junction x="489.458" y="66.04"/>
 <pinref part="U2" gate="G$1" pin="FEEDBACK"/>
+<wire x1="485.14" y1="66.04" x2="489.458" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="489.458" y1="76.2" x2="489.458" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="446.278" y1="76.2" x2="489.458" y2="76.2" width="0.1524" layer="91"/>
 <label x="476.758" y="76.2" size="1.778" layer="95"/>
@@ -8048,7 +8062,8 @@ LED</description>
 <wire x1="514.858" y1="58.42" x2="514.858" y2="66.04" width="0.1524" layer="91"/>
 <label x="489.458" y="83.82" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="489.458" y1="76.2" x2="489.458" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="2"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
+<junction x="485.14" y="66.04"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="EN"/>
@@ -8089,14 +8104,14 @@ LED</description>
 <wire x1="60.452" y1="55.372" x2="75.692" y2="55.372" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="73.152" y1="60.452" x2="78.232" y2="60.452" width="0.1524" layer="91"/>
-<wire x1="78.232" y1="60.452" x2="78.232" y2="55.372" width="0.1524" layer="91"/>
-<wire x1="83.312" y1="55.372" x2="78.232" y2="55.372" width="0.1524" layer="91"/>
-<junction x="78.232" y="55.372"/>
+<wire x1="78.232" y1="60.452" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="P$4"/>
-<wire x1="75.692" y1="55.372" x2="78.232" y2="55.372" width="0.1524" layer="91"/>
+<wire x1="75.692" y1="55.372" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="75.692" y1="50.292" x2="75.692" y2="55.372" width="0.1524" layer="91"/>
 <junction x="75.692" y="55.372"/>
 <pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<junction x="78.74" y="55.88"/>
 </segment>
 </net>
 <net name="N$4" class="0">
