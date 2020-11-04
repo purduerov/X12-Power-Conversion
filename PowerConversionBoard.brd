@@ -4235,7 +4235,6 @@ Grant Geyer
 <rectangle x1="29.0703" y1="43.8277" x2="29.2735" y2="43.8531" layer="200"/>
 <rectangle x1="32.9311" y1="43.8277" x2="33.0835" y2="43.8531" layer="200"/>
 <rectangle x1="29.1211" y1="43.8531" x2="29.2227" y2="43.8785" layer="200"/>
-<<<<<<< HEAD
 <wire x1="136.906" y1="101.6" x2="13.208" y2="101.6" width="0" layer="20"/>
 <wire x1="136.906" y1="101.6" x2="136.906" y2="79.121" width="0" layer="20"/>
 <wire x1="136.906" y1="79.121" x2="152.4" y2="79.121" width="0" layer="20"/>
@@ -4243,13 +4242,10 @@ Grant Geyer
 <wire x1="13.208" y1="78.486" x2="13.208" y2="101.6" width="0" layer="20"/>
 <text x="14.732" y="21.717" size="0.762" layer="25">GND - 5V</text>
 <text x="24.638" y="16.637" size="0.762" layer="25">GND - 5V</text>
-<text x="36.449" y="11.938" size="0.762" layer="25" rot="SR0">5V - GND</text>
+<text x="35.179" y="11.938" size="0.762" layer="25" rot="SR0">GND - 5V</text>
 <text x="68.961" y="29.845" size="0.762" layer="25" rot="SR0">5V</text>
 <text x="73.279" y="25.146" size="0.762" layer="25" rot="SR0">CAN_L - CAN_H</text>
 <text x="92.964" y="25.527" size="0.762" layer="25">3.3V</text>
-=======
-<text x="113.665" y="28.194" size="1.778" layer="121">owo</text>
->>>>>>> master
 </plain>
 <libraries>
 <library name="PowerComponents">
